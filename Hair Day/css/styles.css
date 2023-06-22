@@ -1,0 +1,115 @@
+body {
+  background-color: rgb(221, 210, 189);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-block: 3rem;
+}
+nav {
+  background-color: orange;
+  margin-top: 2rem;
+  border-radius: 20px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 20px;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .banner {
+  background: url(../images/Healthy-Hair-2.jpg) no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-radius: 20px;
+  padding-top: 2rem;
+  height: 20em;
+}
+.banner h1 {
+  font-size: 2.5rem;
+  text-align: start;
+  margin-left: 3rem;
+  color: #d0604c;
+}
+.banner p {
+  font-size: 1.2rem;
+  text-align: start;
+  margin-left: 3rem;
+  width: 50%;
+  line-height: 1.2;
+}
+
+article {
+  flex: 1;
+}
+
+.card article {
+  background: white;
+  margin-top: 2rem;
+  margin-inline: 1rem;
+  border-radius: 20px;
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.card article img {
+  width: 20rem;
+}
+.card article h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #d0604c;
+}
+.card article p {
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+
+footer {
+  margin-top: 20px;
+  display: flex;
+}
+
+footer div {
+  flex: 1;
+}
+
+footer div > img {
+  width: 15%;
+}
+#copyright {
+  color: aliceblue;
+  text-align: end;
+}
